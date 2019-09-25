@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type>
+        <action_type_parent/>
+        <comment>Create HR request NeedIt Task</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">24ed3dfddb800010c446f53a2996193e</flow>
+        <order>3.2.6.1</order>
+        <parent_ui_id>0c635ff5-3c5b-4488-b7f0-653b4a983ae4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 03:45:56</sys_created_on>
+        <sys_id>12b96b12db884010c446f53a299619e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_12b96b12db884010c446f53a299619e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 03:45:56</sys_updated_on>
+        <ui_id>c46dab0b-f6e6-46c3-bd4a-5d8be4cc67d8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=12b96b12db884010c446f53a299619e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>12b96b12db884010c446f53a299619e8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 03:45:56</sys_created_on>
+        <sys_id>96b96b12db884010c446f53a299619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 03:45:56</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=12b96b12db884010c446f53a299619e8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>12b96b12db884010c446f53a299619e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 03:45:56</sys_created_on>
+        <sys_id>16b96b12db884010c446f53a299619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 03:45:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>u_needit={{d842d381-0293-41ab-99b0-431b803dfed4.record}}^assigned_to={{9a51b02a-6af5-4086-a94f-e12204ab80cf.answer.assignee}}^due_date={{d842d381-0293-41ab-99b0-431b803dfed4.record.u_when_needed}}^short_description=Complete HR NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>12b96b12db884010c446f53a299619e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 03:45:56</sys_created_on>
+        <sys_id>52b96b12db884010c446f53a299619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 03:45:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
